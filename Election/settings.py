@@ -25,7 +25,7 @@ SECRET_KEY = '*u1!y3$0@m2usmr=2i%quqblk1!&ss+0y$z9_k0#3r!g7&qr@z'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['golla.pythonanywhere.com']
 
 
 # Application definition
