@@ -14,7 +14,7 @@ def mai(request):
     for i in range(1,14):
         picked=consistencyAC.objects.filter(district=i)
         allpack[dist[i]]=picked
-    return render(request,"resultSite/main.html",{"allpack":allpack,"jsp":"Janasena Party","ycp":"Yuvajana Sramika Rythu Congress Party","tdp":"Telugu Desam"})
+    return render(request,"resultSite/index.html",{"allpack":allpack,"jsp":"Janasena Party","ycp":"Yuvajana Sramika Rythu Congress Party","tdp":"Telugu Desam"})
 
 
 
